@@ -14,12 +14,12 @@ classifiers = [
 ]
 dependencies = [
 ]
-description = "Python project template"
+description = "Python project template" # TODO: Update this description
 dynamic = ["version"]
 license = { file = "LICENSE" }
-name = "tbp.project"
+name = "tbp.project" # TODO: Update this name
 readme = "README.md"
-requires-python = ">=3.8, <4"
+requires-python = ">=3.8, <4" # TODO: Confirm desired Python version
 
 [dependency-groups]
 dev = [
@@ -39,8 +39,8 @@ dev = [
 ]
 
 [project.urls]
-Repository = "https://github.com/thousandbrainsproject/tbp.project"
-Issues = "https://github.com/thousandbrainsproject/tbp.project/issues"
+Repository = "https://github.com/thousandbrainsproject/tbp.project" # TODO: Update this URL
+Issues = "https://github.com/thousandbrainsproject/tbp.project/issues" # TODO: Update this URL
 
 [tool.coverage.run]
 branch = true

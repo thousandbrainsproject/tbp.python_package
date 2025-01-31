@@ -2,6 +2,17 @@
 
 This is a Python project template.
 
+## Make it yours
+
+After copying the template, you need to address the following TODOs.
+
+### pyproject.toml
+
+- [] Update the project `description`
+- [] Update the project `name`
+- [] Confirm desired Python version in `requires-python`
+- [] Update the `Repository` and `Issues` URLs
+
 ## Development
 
 ### Install `uv`
