@@ -21,6 +21,9 @@ name = "tbp.project" # TODO: Update this name
 readme = "README.md"
 requires-python = ">=3.8, <4" # TODO: Confirm desired Python version
 
+[project.scripts] # TODO: Update with your application entrypoints, if any
+hello = "tbp.project.hello:main" # Executable via `uv run hello`
+
 [dependency-groups]
 dev = [
     # Check for undeclared dependencies

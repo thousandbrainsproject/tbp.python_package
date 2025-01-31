@@ -1,9 +1,8 @@
 # Python package template
 
-This is a Python package template. For use-cases that require packaging and distribution, this template is suitable.
+This is a Python package template. For application use-cases like web servers, scripts, and command-line interfaces that require packaging and distribution, this template is suitable.
 
-For a Python application template, see https://github.com/thousandbrainsproject/tbp.python_application
-For a Python library template, see https://github.com/thousandbrainsproject/tbp.python_library
+For a Python library template, see https://github.com/thousandbrainsproject/tbp.python_library.
 
 To create a repository from this template, find and click the "Use this template" button:
 
@@ -18,6 +17,7 @@ After copying the template, you need to address the following TODOs.
 - Update the project `description`
 - Update the project `name`
 - Confirm desired Python version in `requires-python`
+- Update any entrypoints in `[project.scripts]`
 - Update the `Repository` and `Issues` URLs
 
 ### `delete_me.png`
