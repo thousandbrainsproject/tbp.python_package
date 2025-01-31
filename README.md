@@ -8,18 +8,32 @@ This is a Python project template. To create a repository from this template, fi
 
 After copying the template, you need to address the following TODOs.
 
-### pyproject.toml
+### `pyproject.toml`
 
 - Update the project `description`
 - Update the project `name`
 - Confirm desired Python version in `requires-python`
 - Update the `Repository` and `Issues` URLs
 
+### `delete_me.png`
+
+- Delete this file
+
+### `README.md`
+
+- Update for your project
+
 ## Development
+
+The development of this project is managed with [uv](https://docs.astral.sh/uv/), "a single tool to replace `pip`, `pip-tools`, `pipx`, `poetry`, `pyenv`, `twine`, `virtualenv`, and more." You will need to install it.
+
+We use `uv` as it tracks the latest PEP standards while relying on existing infrastructure like `pip`, `venv`, etc.
+
+`uv.lock` is non-standard in Python, but as Python does not yet define a lockfile standard, any lockfile format is non-standard. The benefit of `uv.lock` is that it is cross-platform and "captures the packages that would be installed across all possible Python markers such as operating system, architecture, and Python version". This makes it safe to check-in to the repository.
 
 ### Install `uv`
 
-The development of this project is managed with [uv](https://docs.astral.sh/uv/), "a single tool to replace `pip`, `pip-tools`, `pipx`, `poetry`, `pyenv`, `twine`, `virtualenv`, and more." You will need to install it. See the [uv installation instructions](https://docs.astral.sh/uv/getting-started/installation/).
+On a Mac, `brew install uv` is sufficient. For additional options, see the [uv installation instructions](https://docs.astral.sh/uv/getting-started/installation/).
 
 ### Install dependencies
 
