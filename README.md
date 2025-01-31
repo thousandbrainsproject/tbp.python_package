@@ -1,6 +1,8 @@
 # Python project template
 
-This is a Python project template.
+This is a Python project template. To create a repository from this template, find and click the "Use this template" button:
+
+![Use this template](./delete_me.png)
 
 ## Make it yours
 
@@ -8,10 +10,10 @@ After copying the template, you need to address the following TODOs.
 
 ### pyproject.toml
 
-- [] Update the project `description`
-- [] Update the project `name`
-- [] Confirm desired Python version in `requires-python`
-- [] Update the `Repository` and `Issues` URLs
+- Update the project `description`
+- Update the project `name`
+- Confirm desired Python version in `requires-python`
+- Update the `Repository` and `Issues` URLs
 
 ## Development
 
