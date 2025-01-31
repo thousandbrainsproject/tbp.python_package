@@ -1,6 +1,11 @@
-# Python project template
+# Python package template
 
-This is a Python project template. To create a repository from this template, find and click the "Use this template" button:
+This is a Python package template. For use-cases that require packaging and distribution, this template is suitable.
+
+For a Python application template, see https://github.com/thousandbrainsproject/tbp.python_application
+For a Python library template, see https://github.com/thousandbrainsproject/tbp.python_library
+
+To create a repository from this template, find and click the "Use this template" button:
 
 ![Use this template](./delete_me.png)
 
