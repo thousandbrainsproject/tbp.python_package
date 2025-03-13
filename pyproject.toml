@@ -123,7 +123,7 @@ ignore = [
 author = "Thousand Brains Project"
 
 [tool.ruff.lint.mccabe]
-max-complexity = 18
+max-complexity = 10
 
 [tool.ruff.lint.pydocstyle]
 convention = "google"
